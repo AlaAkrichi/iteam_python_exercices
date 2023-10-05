@@ -1,11 +1,9 @@
 print("saisir un nomber ")
-nomber = int(input(">"))
+nomber = int(input("> "))
 somme = 0
-print(f"en calcule la somme de {nomber} : ")
-for i in range(nomber+1):
-    somme=somme+i
-    print(f"{somme}+",end="")
-print(f"={somme}")
+for i in range(1,nomber//2+1):
+    if(nomber%i==0):
+        somme = somme +i
 if(somme == nomber):
     print(f"le nomber {nomber} est parfait")
 else:
