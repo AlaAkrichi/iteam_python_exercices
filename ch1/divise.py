@@ -1,0 +1,5 @@
+print('saisir n1')
+n1 = int(input(">"))
+print('saisir n2')
+n2 = int(input(">"))
+print(f'la division de {n1} et {n2} = {n1//n2} \n le rest {n1%n2}')
