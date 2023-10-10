@@ -8,3 +8,4 @@ if(somme == nomber):
     print(f"le nomber {nomber} est parfait")
 else:
     print(f"le nomber {nomber} n'est pas parfait ")
+

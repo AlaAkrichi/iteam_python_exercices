@@ -15,4 +15,6 @@ match numJour:
         print("samedi")
     case 7:
         print("dimanche")
+    case _:
+        print("invalide")
     
